@@ -13,7 +13,7 @@ A live demo of this project is available to view at http://wom.twstewart.me/
 It is hosted as a static site in an AWS S3 bucket, a walkthrough on setting up a static website using S3 on my personal blog at https://twstewart.me/the-wheel-of-misfortune/
 
 
-## testing
+## Testing
 One can use the included Dockerfile to test and/or host a local version of the game.
 
 ```
