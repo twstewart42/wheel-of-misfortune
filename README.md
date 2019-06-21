@@ -14,7 +14,7 @@ It is hosted as a static site in an AWS S3 bucket, a walkthrough on setting up a
 
 
 ## Testing
-One can use the included Dockerfile to test and/or host a local version of the game.
+One can use the included Dockerfile to test and/or host a local version of the game...or just open the index.html in your favorite browser (low tech testing)
 
 ```
 $ docker build -t wheel-of-misfortune-test .
