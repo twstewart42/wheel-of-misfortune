@@ -13,7 +13,7 @@ var padding = { top: 20, right: 40, bottom: 0, left: 0 },
 
 
 
-d3.json("http://wom.pt-xx.net/incidents/general_incidents.json", function (error, data) {
+d3.json("http://wom.twstewart.me.s3-website-us-east-1.amazonaws.com/incidents/general_incidents.json", function (error, data) {
     if (error) throw error;
     var svg = d3.select("#wheel")
         .append("svg")

@@ -4,7 +4,9 @@
 A role-playing game for incident management training
 
 ## Hosted
-I will be hosting a demo of this via a static S3 bucket...more info to come
+A live demo of this project is available to view at http://wom.twstewart.me/
+
+It is hosted as a static site in an AWS S3 bucket
 
 
 # Credits
