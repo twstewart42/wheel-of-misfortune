@@ -3,25 +3,25 @@
         "ID": "1",
         "title": "Incident 1",
         "difficulty": "4",
-        "scenario": "MySQL master does not accept writes"
+        "scenario": "CRITICAL ALRT"
     },
     {
         "ID": "2",
         "title": "Incident 2",
         "difficulty": "2",
-        "scenario": "Load balancer is down"
+        "scenario": "Danger, Will Robinson, Danger."
     },
     {
         "ID": "3",
         "title": "Incident 3",
         "difficulty": "5",
-        "scenario": "Blob storage system is unable to store objects"
+        "scenario": "Clients call in and say the website is slow with sporadic timeouts"
     },
     {
         "ID": "4",
         "title": "Incident 4",
-        "difficulty": "4",
-        "scenario": "DC eu-1 has a power outage"
+        "difficulty": "5",
+        "scenario": "us-east-1a goes off line"
     },
     {
         "ID": "5",
@@ -33,18 +33,31 @@
         "ID": "6",
         "title": "Incident 6",
         "difficulty": "2",
-        "scenario": "High HTTP 5xx error rate"
+        "scenario": "DDoS Attack on primary webserver cluster"
     },
     {
         "ID": "7",
         "title": "Incident 7",
-        "difficulty": "1",
-        "scenario": "High query latency in the RPC server"
+        "difficulty": "4",
+        "scenario": "SFTP uploads to a fail. Clients are enraged, you've gotten four calls from support."
     },
-    {
+	{
         "ID": "8",
         "title": "Incident 8",
-        "difficulty": "4",
-        "scenario": "LDAP clients cannot query LDAP server"
+        "difficulty": "1",
+        "scenario": "From mobile app, All posting to Facebook stops working."
+    },
+	{
+        "ID": "9",
+        "title": "Incident 9",
+        "difficulty": "5",
+        "scenario": "All drives for the database cluster suddenly fill to 100%"
+    },
+	{
+        "ID": "10",
+        "title": "Incident 10",
+        "difficulty": "3",
+        "scenario": "An exploit is discovered on your service, leaking PI and sensitive data. You've learned this from a late night email from legal and security."
     }
+	
 ]

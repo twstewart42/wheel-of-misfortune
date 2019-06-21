@@ -13,7 +13,7 @@ var padding = { top: 20, right: 40, bottom: 0, left: 0 },
 
 
 
-d3.json("https://dastergon.gr/wheel-of-misfortune/incidents/general_incidents.json", function (error, data) {
+d3.json("http://wom.pt-xx.net/incidents/general_incidents.json", function (error, data) {
     if (error) throw error;
     var svg = d3.select("#wheel")
         .append("svg")
@@ -88,7 +88,7 @@ d3.json("https://dastergon.gr/wheel-of-misfortune/incidents/general_incidents.js
             .each("end", function () {
                 //mark incident as seen
                 d3.select(".slice:nth-child(" + (picked + 1) + ") path")
-                    .attr("fill", "#111");
+                    .attr("fill", "white");
                 //populate incident
                 d3.select("#incident p")
                     .text("Scenario: " + data[picked].scenario);
@@ -102,7 +102,7 @@ d3.json("https://dastergon.gr/wheel-of-misfortune/incidents/general_incidents.js
         .attr("transform", "translate(" + (w + padding.left + padding.right) + "," + ((h / 2) + padding.top) + ")")
         .append("path")
         .attr("d", "M-" + (r * .15) + ",0L0," + (r * .05) + "L0,-" + (r * .05) + "Z")
-        .style({ "fill": "black" });
+        .style({ "fill": "white" });
 
     //draw spin circle
     container.append("circle")
