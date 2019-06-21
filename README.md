@@ -13,6 +13,14 @@ A live demo of this project is available to view at http://wom.twstewart.me/
 It is hosted as a static site in an AWS S3 bucket, a walkthrough on setting up a static website using S3 on my personal blog at https://twstewart.me/the-wheel-of-misfortune/
 
 
+## testing
+One can use the included Dockerfile to test and/or host a local version of the game.
+
+```
+$ docker build -t wheel-of-misfortune-test .
+$ docker run --name wom-test -d -p 8080:80 wheel-of-misfortune-test
+```
+
 # Credits
 This project was originally created by https://github.com/dastergon/wheel-of-misfortune 
 
