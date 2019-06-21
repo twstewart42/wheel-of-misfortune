@@ -30,7 +30,7 @@ Spin the wheel and get started solving incidents
 ![incident 10](screenshots/wom-2.png)
 
 # Credits
-This project was originally created by https://github.com/dastergon/wheel-of-misfortune 
+The concept of a Wheel of Misfortune comes from the Google's [Site Reliability Engineer ebook](https://landing.google.com/sre/sre-book/chapters/accelerating-sre-on-call/#xref_training_disaster-rpg), and the tool was originally created by https://github.com/dastergon/wheel-of-misfortune and then I forked and expanded to fit my team’s needs, added ‘dark mode’ and a random on-call agent selector at https://github.com/twstewart42/wheel-of-misfortune
 
 
 
