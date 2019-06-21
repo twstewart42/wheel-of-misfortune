@@ -22,11 +22,11 @@ $ docker run --name wom-test -d -p 8080:80 wheel-of-misfortune-test
 ```
 
 ## Screenshots
-The Wheel of Misfortune Welcome page
+The Wheel of Misfortune Welcome page  
 ![index.html](screenshots/wom-1.png)
 
-Select an On-call Agent
-Spin the wheel and get started solving incidents
+Select an On-call Agent  
+Spin the wheel and get started solving incidents  
 ![incident 10](screenshots/wom-2.png)
 
 # Credits
